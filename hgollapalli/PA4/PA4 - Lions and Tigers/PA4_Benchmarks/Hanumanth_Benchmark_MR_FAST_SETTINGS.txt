@@ -1,0 +1,16 @@
+Program Assignment: 4 
+Name: Keenan
+
+Compiler Settings
+
+Favor Size or Speed - Favor fast code (/Ot)
+Inline Function Expansion - Disabled (/Ob0)
+Optimization - Full Optimization (/Ox)
+Enable Intrinsic Functions - No
+Omit Frame Pointers - Yes (/Oy)
+Enable Fiber-Safe Optimizations - Yes (/GT)
+
+Code Generation:
+Struct Member Alignment - 1 Byte (/Zp1)
+Security Check - Disable Security Check (/GS-)
+Enable Parallel Code Generation - Yes (/Qpar)

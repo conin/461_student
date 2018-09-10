@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="_Output">
+      <UniqueIdentifier>{62c412ac-e1de-4d15-aa9a-2ec1e8a02b13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Trace">
+      <UniqueIdentifier>{c248914f-60c1-4a25-8b81-7492bb8eb7f8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Boustrophedonic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Trace.cpp">
+      <Filter>_Trace</Filter>
+    </ClCompile>
+    <ClCompile Include="output.cpp">
+      <Filter>_Output</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Boustrophedonic.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Trace.h">
+      <Filter>_Trace</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsWrapper.h">
+      <Filter>_Trace</Filter>
+    </ClInclude>
+    <ClInclude Include="output.h">
+      <Filter>_Output</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,38 @@
+Program Assignment: 2 
+Name: Hanumanth G
+
+-------------------------------------------------
+
+Creation of Bloated List: 2.770665 s
+
+Original linked list---------------------------
+   Finding Key: 4.971651 ms
+ (Proof)   key: 0x7ED551F2
+       name[0]: b4
+      name[55]: 85
+     name[111]: c2
+     name[113]: 88
+             Y: 9476.282227
+         MB[4]: 12438.674805
+           A.z: 22274.474609
+
+Conversion to Hot/Cold: 41.940483 ms
+
+Hot/Cold linked list---------------------------
+   Finding Key: 0.581277 ms
+ (Proof)   key: 0x7ED551F2
+       name[0]: 94
+      name[55]: 69
+     name[111]: 0
+     name[113]: 6b
+             Y: 9476.282227
+         MB[4]: 12438.674805
+           A.z: 22274.474609
+
+Verify Nodes: Original and New Hot/Cold : 37.588608 ms
+
+------ Summary ------------------------------------- 
+
+                 orig: 4.971651 ms 
+                  new: 0.581277 ms 
+                ratio: 8.552980 

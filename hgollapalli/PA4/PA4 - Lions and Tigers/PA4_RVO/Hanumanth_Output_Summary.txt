@@ -1,0 +1,18 @@
+Program Assignment: 4 
+Name: Hanumanth
+RVO Conversions
+
+
+Debug Mode
+
+  Run NO RVO: 4080.034180 ms
+Run WITH RVO: 3178.281006 ms
+
+               1.28 faster
+
+Release Mode
+
+Run NO RVO: 3362.501953 ms
+Run WITH RVO: 3178.281006 ms
+
+              1.05 faster

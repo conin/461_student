@@ -1,0 +1,15 @@
+Program Assignment: 4 
+Name: Hanumanth
+With Proxy
+
+Debug mode
+	Run NO proxy objects: 39410.179688 ms
+	Run WITH proxy objects: 36688.890625 ms
+    
+	1.074 times faster
+
+Release mode
+	Run NO proxy objects: 3355.558157 ms
+	Run WITH proxy objects: 453.431964 ms
+	
+	7.40035 times faster

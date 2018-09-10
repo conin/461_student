@@ -1,0 +1,18 @@
+Program Assignment: 4 
+Name: Hanumanth
+
+-------------------------------------------------
+
+ -----------Memory System------------
+
+Memory Time: 84.844116 ms
+
+
+ --------- Bloated Nodes ---------------
+
+Creation of List: 14.429958 s
+        Find Key: 46.586796 ms
+
+ -----------Math Test------------
+
+Math test: 616.106812 ms

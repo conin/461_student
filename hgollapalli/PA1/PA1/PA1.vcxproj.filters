@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="MemTracker">
+      <UniqueIdentifier>{1588f8a2-06fe-4928-b6f8-dea5ef68634a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Trace">
+      <UniqueIdentifier>{c1dcaef6-1d0e-4980-a002-c467daab3242}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Trace.cpp">
+      <Filter>Trace</Filter>
+    </ClCompile>
+    <ClCompile Include="HotDog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Order.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CondimentsNames.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HotDogstand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\MemTracker\MemTracker.h">
+      <Filter>MemTracker</Filter>
+    </ClInclude>
+    <ClInclude Include="Trace.h">
+      <Filter>Trace</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsWrapper.h">
+      <Filter>Trace</Filter>
+    </ClInclude>
+    <ClInclude Include="Condiments.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Names.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HotDog.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OrderNames.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CondimentsNames.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HotDogstand.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\MemTracker\MemTrackerDebug.lib">
+      <Filter>MemTracker</Filter>
+    </Library>
+    <Library Include="..\MemTracker\MemTrackerRelease.lib">
+      <Filter>MemTracker</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

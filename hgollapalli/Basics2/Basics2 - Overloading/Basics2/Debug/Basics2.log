@@ -1,0 +1,6 @@
+﻿  Nibble.cpp
+  Nibble_tests.cpp
+Nibble_tests.cpp(188): error C2676: binary '++': 'Nibble' does not define this operator or a conversion to a type acceptable to the predefined operator
+Nibble_tests.cpp(196): error C2676: binary '++': 'Nibble' does not define this operator or a conversion to a type acceptable to the predefined operator
+Nibble_tests.cpp(201): error C2676: binary '++': 'Nibble' does not define this operator or a conversion to a type acceptable to the predefined operator
+Nibble_tests.cpp(206): error C2676: binary '++': 'Nibble' does not define this operator or a conversion to a type acceptable to the predefined operator

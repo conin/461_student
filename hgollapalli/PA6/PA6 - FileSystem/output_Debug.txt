@@ -1,0 +1,22 @@
+Program Assignment: 7  
+Debug MODE
+Name: Hanumanth
+
+-------------------------------------------------
+
+Creation of original List: 51.027271 ms
+
+Original linked list---------------------------
+   Finding Key: 0.391688 ms
+ (Proof)   key: 0x7F9E1B10  x:657018931 y:1315507706 z:1847085303 flag:1
+
+     Insertion Time: 3493.788818 ms
+         Merge Time: 12.164954 ms
+  Merge/Insert Time: 5.587574 ms   Cutoff length: 13
+
+  Merge vs Merge/Insert: 2.177144 faster
+
+    Time to create File: 17.608652 ms  
+  Time to recreate list: 2.028695 ms  
+
+  Verify Time: 0.000000 ms  Result: 1

@@ -1,0 +1,169 @@
+ currNumOrders : 0 peakNumOrders : 0 
+  Add -> Order :Jaime
+  Add -> Order :Cersei
+  Add -> Order :Arya
+  Add -> Order :Sansa
+****************************************************
+
+ Hot Dog Stand :: Current Orders 4 	 Peek Number Orders 4
+Order : Sansa
+  HotDog 1
+		Yellow_Mustard
+		Tomato_Wedge
+		Sport_Peppers
+		Pickle_Spear
+		Green_Relish
+		Chopped_Onions
+		Celery_Salt
+
+  HotDog 2
+		Green_Relish
+		Yellow_Mustard
+		Chopped_Onions
+
+
+Order : Arya
+  HotDog 1
+		Yellow_Mustard
+		Tomato_Wedge
+		Pickle_Spear
+		Green_Relish
+		Chopped_Onions
+		Celery_Salt
+
+
+Order : Cersei
+  HotDog 1
+		Plain
+
+  HotDog 2
+		Plain
+
+
+Order : Jaime
+  HotDog 1
+		Green_Relish
+		Tomato_Wedge
+		Celery_Salt
+
+  HotDog 2
+		Sport_Peppers
+		Yellow_Mustard
+
+  HotDog 3
+		Yellow_Mustard
+		Tomato_Wedge
+		Sport_Peppers
+		Pickle_Spear
+		Green_Relish
+		Chopped_Onions
+		Celery_Salt
+
+*********************
+ Remove -> Order : Cersei
+
+****************************************************
+
+ Hot Dog Stand :: Current Orders 3 	 Peek Number Orders 4
+Order : Sansa
+  HotDog 1
+		Yellow_Mustard
+		Tomato_Wedge
+		Sport_Peppers
+		Pickle_Spear
+		Green_Relish
+		Chopped_Onions
+		Celery_Salt
+
+  HotDog 2
+		Green_Relish
+		Yellow_Mustard
+		Chopped_Onions
+
+
+Order : Arya
+  HotDog 1
+		Yellow_Mustard
+		Tomato_Wedge
+		Pickle_Spear
+		Green_Relish
+		Chopped_Onions
+		Celery_Salt
+
+
+Order : Jaime
+  HotDog 1
+		Green_Relish
+		Tomato_Wedge
+		Celery_Salt
+
+  HotDog 2
+		Sport_Peppers
+		Yellow_Mustard
+
+  HotDog 3
+		Yellow_Mustard
+		Tomato_Wedge
+		Sport_Peppers
+		Pickle_Spear
+		Green_Relish
+		Chopped_Onions
+		Celery_Salt
+
+*********************
+ Remove -> Order : Sansa
+
+****************************************************
+
+ Hot Dog Stand :: Current Orders 2 	 Peek Number Orders 4
+Order : Arya
+  HotDog 1
+		Yellow_Mustard
+		Tomato_Wedge
+		Pickle_Spear
+		Green_Relish
+		Chopped_Onions
+		Celery_Salt
+
+
+Order : Jaime
+  HotDog 1
+		Green_Relish
+		Tomato_Wedge
+		Celery_Salt
+
+  HotDog 2
+		Sport_Peppers
+		Yellow_Mustard
+
+  HotDog 3
+		Yellow_Mustard
+		Tomato_Wedge
+		Sport_Peppers
+		Pickle_Spear
+		Green_Relish
+		Chopped_Onions
+		Celery_Salt
+
+*********************
+ Remove -> Order : Jaime
+
+****************************************************
+
+ Hot Dog Stand :: Current Orders 1 	 Peek Number Orders 4
+Order : Arya
+  HotDog 1
+		Yellow_Mustard
+		Tomato_Wedge
+		Pickle_Spear
+		Green_Relish
+		Chopped_Onions
+		Celery_Salt
+
+*********************
+ Remove -> Order : Arya
+
+****************************************************
+
+ Hot Dog Stand :: Current Orders 0 	 Peek Number Orders 4 
+ No Orders...!

@@ -1,0 +1,174 @@
+
+// SAMPLE OUTPUT from MAIN
+// Try to make your output look the same
+
+-------------------------------------------------
+
+HotDogStand: currNumOrders:0  peakNumOrders:0
+
+Add->Order(Jaime)
+Add->Order(Cersei)
+Add->Order(Arya)
+Add->Order(Sansa)
+
+-------------------------------------------------
+
+Stand: currNumOrders:4  peakNumOrders:4
+
+Order: Jaime 
+	HotDog:1 
+		Yellow_Mustard 
+		Green_Relish 
+		Chopped_Onions 
+		Tomato_Wedge 
+		Pickle_Spear 
+		Sport_Peppers 
+		Celery_Salt 
+	HotDog:2 
+		Yellow_Mustard 
+		Sport_Peppers 
+	HotDog:3 
+		Green_Relish 
+		Tomato_Wedge 
+		Celery_Salt 
+
+Order: Cersei 
+	HotDog:1 
+		Plain 
+	HotDog:2 
+		Plain 
+
+Order: Arya 
+	HotDog:1 
+		Yellow_Mustard 
+		Green_Relish 
+		Chopped_Onions 
+		Tomato_Wedge 
+		Pickle_Spear 
+		Celery_Salt 
+
+Order: Sansa 
+	HotDog:1 
+		Yellow_Mustard 
+		Green_Relish 
+		Chopped_Onions 
+	HotDog:2 
+		Yellow_Mustard 
+		Green_Relish 
+		Chopped_Onions 
+		Tomato_Wedge 
+		Pickle_Spear 
+		Sport_Peppers 
+		Celery_Salt 
+
+-------------------------------------------------
+
+Remove->Order(Cersei)
+
+-------------------------------------------------
+
+Stand: currNumOrders:3  peakNumOrders:4
+
+Order: Jaime 
+	HotDog:1 
+		Yellow_Mustard 
+		Green_Relish 
+		Chopped_Onions 
+		Tomato_Wedge 
+		Pickle_Spear 
+		Sport_Peppers 
+		Celery_Salt 
+	HotDog:2 
+		Yellow_Mustard 
+		Sport_Peppers 
+	HotDog:3 
+		Green_Relish 
+		Tomato_Wedge 
+		Celery_Salt 
+
+Order: Arya 
+	HotDog:1 
+		Yellow_Mustard 
+		Green_Relish 
+		Chopped_Onions 
+		Tomato_Wedge 
+		Pickle_Spear 
+		Celery_Salt 
+
+Order: Sansa 
+	HotDog:1 
+		Yellow_Mustard 
+		Green_Relish 
+		Chopped_Onions 
+	HotDog:2 
+		Yellow_Mustard 
+		Green_Relish 
+		Chopped_Onions 
+		Tomato_Wedge 
+		Pickle_Spear 
+		Sport_Peppers 
+		Celery_Salt 
+
+-------------------------------------------------
+
+Remove->Order(Sansa)
+
+-------------------------------------------------
+
+Stand: currNumOrders:2  peakNumOrders:4
+
+Order: Jaime 
+	HotDog:1 
+		Yellow_Mustard 
+		Green_Relish 
+		Chopped_Onions 
+		Tomato_Wedge 
+		Pickle_Spear 
+		Sport_Peppers 
+		Celery_Salt 
+	HotDog:2 
+		Yellow_Mustard 
+		Sport_Peppers 
+	HotDog:3 
+		Green_Relish 
+		Tomato_Wedge 
+		Celery_Salt 
+
+Order: Arya 
+	HotDog:1 
+		Yellow_Mustard 
+		Green_Relish 
+		Chopped_Onions 
+		Tomato_Wedge 
+		Pickle_Spear 
+		Celery_Salt 
+
+-------------------------------------------------
+
+Remove->Order(Jaime)
+
+-------------------------------------------------
+
+Stand: currNumOrders:1  peakNumOrders:4
+
+Order: Arya 
+	HotDog:1 
+		Yellow_Mustard 
+		Green_Relish 
+		Chopped_Onions 
+		Tomato_Wedge 
+		Pickle_Spear 
+		Celery_Salt 
+
+-------------------------------------------------
+
+Remove->Order(Arya)
+
+-------------------------------------------------
+
+Stand: currNumOrders:0  peakNumOrders:4
+
+MemTracker results
+	no leaks
+
+

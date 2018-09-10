@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="_Trace">
+      <UniqueIdentifier>{0630af91-28bd-4c75-84b5-4301454c3d61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_UnitTest">
+      <UniqueIdentifier>{0cc31a7d-6810-40ed-a8e4-e17fba8706d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Output">
+      <UniqueIdentifier>{ac5ebc7f-bb1c-4938-966c-1cb2529bff8c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="A.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="B.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitTest.cpp">
+      <Filter>_UnitTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Trace.cpp">
+      <Filter>_Trace</Filter>
+    </ClCompile>
+    <ClCompile Include="output.cpp">
+      <Filter>_Output</Filter>
+    </ClCompile>
+    <ClCompile Include="STL_Tests.cpp">
+      <Filter>_UnitTest</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="UnitTest.h">
+      <Filter>_UnitTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Trace.h">
+      <Filter>_Trace</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsWrapper.h">
+      <Filter>_Trace</Filter>
+    </ClInclude>
+    <ClInclude Include="output.h">
+      <Filter>_Output</Filter>
+    </ClInclude>
+    <ClInclude Include="Vect.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ZipCode.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

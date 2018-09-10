@@ -1,0 +1,77 @@
+Program Assignment: 4 
+Name: Hanumanth
+Implicit Conversions
+
+Debug Mode
+Run with NO Implict conversions: 360.854447 ms
+   Run with Implict conversions: 473.753124 ms
+
+              1.3 times faster
+
+Release Mode
+
+   Run with Implict conversions: 383.127868 ms
+Run with NO Implict conversions: 360.854447 ms
+
+              1.06 times faster
+
+
+
+
+
+//-----------------------------------------------------------
+// OUTPUT
+//-----------------------------------------------------------
+
+
+Set:  IMPLICIT_CONVERSIONS  1
+
+1>------ Build started: Project: PA4_Implicit, Configuration: Release Win32 ------
+1>  main.cpp
+1>  output.cpp
+1>  stressTest.cpp
+1>stressTest.cpp(37): error C2248: 'Vect::setX': cannot access private member declared in class 'Vect'
+1>  f:\perforce\461\keenan2016fall_csc461_702\student\hgollapalli\pa4\pa4 - lions and tigers\pa4_implicit\pa4_implicit\PA4_A.h(154): note: see declaration of 'Vect::setX'
+1>  f:\perforce\461\keenan2016fall_csc461_702\student\hgollapalli\pa4\pa4 - lions and tigers\pa4_implicit\pa4_implicit\PA4_A.h(7): note: see declaration of 'Vect'
+1>stressTest.cpp(38): error C2248: 'Vect::setY': cannot access private member declared in class 'Vect'
+1>  f:\perforce\461\keenan2016fall_csc461_702\student\hgollapalli\pa4\pa4 - lions and tigers\pa4_implicit\pa4_implicit\PA4_A.h(159): note: see declaration of 'Vect::setY'
+1>  f:\perforce\461\keenan2016fall_csc461_702\student\hgollapalli\pa4\pa4 - lions and tigers\pa4_implicit\pa4_implicit\PA4_A.h(7): note: see declaration of 'Vect'
+1>stressTest.cpp(39): error C2248: 'Vect::setZ': cannot access private member declared in class 'Vect'
+1>  f:\perforce\461\keenan2016fall_csc461_702\student\hgollapalli\pa4\pa4 - lions and tigers\pa4_implicit\pa4_implicit\PA4_A.h(164): note: see declaration of 'Vect::setZ'
+1>  f:\perforce\461\keenan2016fall_csc461_702\student\hgollapalli\pa4\pa4 - lions and tigers\pa4_implicit\pa4_implicit\PA4_A.h(7): note: see declaration of 'Vect'
+1>stressTest.cpp(41): error C2248: 'Vect::Vect': cannot access private member declared in class 'Vect'
+1>  f:\perforce\461\keenan2016fall_csc461_702\student\hgollapalli\pa4\pa4 - lions and tigers\pa4_implicit\pa4_implicit\PA4_A.h(148): note: see declaration of 'Vect::Vect'
+1>  f:\perforce\461\keenan2016fall_csc461_702\student\hgollapalli\pa4\pa4 - lions and tigers\pa4_implicit\pa4_implicit\PA4_A.h(7): note: see declaration of 'Vect'
+1>stressTest.cpp(49): error C2248: 'Vect::setX': cannot access private member declared in class 'Vect'
+1>  f:\perforce\461\keenan2016fall_csc461_702\student\hgollapalli\pa4\pa4 - lions and tigers\pa4_implicit\pa4_implicit\PA4_A.h(154): note: see declaration of 'Vect::setX'
+1>  f:\perforce\461\keenan2016fall_csc461_702\student\hgollapalli\pa4\pa4 - lions and tigers\pa4_implicit\pa4_implicit\PA4_A.h(7): note: see declaration of 'Vect'
+1>stressTest.cpp(51): error C2248: 'Vect::setZ': cannot access private member declared in class 'Vect'
+1>  f:\perforce\461\keenan2016fall_csc461_702\student\hgollapalli\pa4\pa4 - lions and tigers\pa4_implicit\pa4_implicit\PA4_A.h(164): note: see declaration of 'Vect::setZ'
+1>  f:\perforce\461\keenan2016fall_csc461_702\student\hgollapalli\pa4\pa4 - lions and tigers\pa4_implicit\pa4_implicit\PA4_A.h(7): note: see declaration of 'Vect'
+1>stressTest.cpp(55): error C2248: 'Vect::set': cannot access private member declared in class 'Vect'
+1>  f:\perforce\461\keenan2016fall_csc461_702\student\hgollapalli\pa4\pa4 - lions and tigers\pa4_implicit\pa4_implicit\PA4_A.h(169): note: see declaration of 'Vect::set'
+1>  f:\perforce\461\keenan2016fall_csc461_702\student\hgollapalli\pa4\pa4 - lions and tigers\pa4_implicit\pa4_implicit\PA4_A.h(7): note: see declaration of 'Vect'
+1>stressTest.cpp(60): error C2248: 'Vect::setZ': cannot access private member declared in class 'Vect'
+1>  f:\perforce\461\keenan2016fall_csc461_702\student\hgollapalli\pa4\pa4 - lions and tigers\pa4_implicit\pa4_implicit\PA4_A.h(164): note: see declaration of 'Vect::setZ'
+1>  f:\perforce\461\keenan2016fall_csc461_702\student\hgollapalli\pa4\pa4 - lions and tigers\pa4_implicit\pa4_implicit\PA4_A.h(7): note: see declaration of 'Vect'
+1>stressTest.cpp(64): error C2248: 'Vect::setX': cannot access private member declared in class 'Vect'
+1>  f:\perforce\461\keenan2016fall_csc461_702\student\hgollapalli\pa4\pa4 - lions and tigers\pa4_implicit\pa4_implicit\PA4_A.h(154): note: see declaration of 'Vect::setX'
+1>  f:\perforce\461\keenan2016fall_csc461_702\student\hgollapalli\pa4\pa4 - lions and tigers\pa4_implicit\pa4_implicit\PA4_A.h(7): note: see declaration of 'Vect'
+1>stressTest.cpp(67): error C2248: 'Vect::Vect': cannot access private member declared in class 'Vect'
+1>  f:\perforce\461\keenan2016fall_csc461_702\student\hgollapalli\pa4\pa4 - lions and tigers\pa4_implicit\pa4_implicit\PA4_A.h(148): note: see declaration of 'Vect::Vect'
+1>  f:\perforce\461\keenan2016fall_csc461_702\student\hgollapalli\pa4\pa4 - lions and tigers\pa4_implicit\pa4_implicit\PA4_A.h(7): note: see declaration of 'Vect'
+1>  Generating Code...
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+
+Set:  IMPLICIT_CONVERSIONS  0
+
+1>------ Build started: Project: PA4_Implicit, Configuration: Debug Win32 ------
+1>  main.cpp
+1>  output.cpp
+1>  stressTest.cpp
+1>  Timer.cpp
+1>  Generating Code...
+1>  PA4_Implicit.vcxproj -> C:\code\2016_CSC461\assignments\PA4\PA4- Lions and Tigers - Answers\PA4_Implicit_Answers\PA4_Implicit\Debug\PA4_Implicit.exe
+1>  PA4_Implicit.vcxproj -> C:\code\2016_CSC461\assignments\PA4\PA4- Lions and Tigers - Answers\PA4_Implicit_Answers\PA4_Implicit\Debug\PA4_Implicit.pdb (Full PDB)
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========

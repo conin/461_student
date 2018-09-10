@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="HotDog">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgYAAAAAgAAAAABAAAgAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>HotDog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HotDogstand">
+    <Position X="3.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgEAAAAgAAAAAAAAAAAAAAAAAAAIAEQAAAAAAAAAAAA=</HashCode>
+      <FileName>HotDogstand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Order" Collapsed="true">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgMAAAAAAAAAAAAAAABAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OrderNames.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Condiments" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAACAAAIANAAAAAAAAAAAAAAAAgAQAAAEAAE=</HashCode>
+      <FileName>Condiments.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Name" Collapsed="true">
+    <Position X="7.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABCAEAAAAAAgAACAAAAAAAAAQBAAAA=</HashCode>
+      <FileName>Names.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

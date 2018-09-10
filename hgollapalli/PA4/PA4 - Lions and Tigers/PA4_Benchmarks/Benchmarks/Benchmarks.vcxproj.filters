@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="_Trace">
+      <UniqueIdentifier>{6202bf5c-2ff6-49c5-9380-011ccaa3e10d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Output">
+      <UniqueIdentifier>{f92554be-d2db-489a-a713-f98c4f08b4cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_UnitTest">
+      <UniqueIdentifier>{32909087-5af5-4d66-aecd-177c707e80e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Timer">
+      <UniqueIdentifier>{7c74c491-70ee-4a07-963b-44128ef5874c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{23f2ba69-3b44-4275-95fd-c42bf25a7c14}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitTest.cpp">
+      <Filter>_UnitTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Trace.cpp">
+      <Filter>_Trace</Filter>
+    </ClCompile>
+    <ClCompile Include="output.cpp">
+      <Filter>_Output</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>_Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="BloatedTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Math_StressTest.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryTests.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Vect2D.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="bloated.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="UnitTest.h">
+      <Filter>_UnitTest</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsWrapper.h">
+      <Filter>_Trace</Filter>
+    </ClInclude>
+    <ClInclude Include="Trace.h">
+      <Filter>_Trace</Filter>
+    </ClInclude>
+    <ClInclude Include="output.h">
+      <Filter>_Output</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>_Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Vect2D.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="bloated.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

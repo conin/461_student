@@ -1,0 +1,18 @@
+Program Assignment: 4 
+Name: Ed Keenan
+RVO Conversions
+
+
+Debug Mode
+
+  Run NO RVO: 2910.269043 ms
+Run WITH RVO: 1822.793579 ms
+
+               1.59 faster
+
+Release Mode
+
+  Run NO RVO: 2077.515137 ms
+Run WITH RVO: 1626.225464 ms
+
+              1.27 faster

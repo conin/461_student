@@ -1,0 +1,97 @@
+/**************************************************************************************************/
+Date - 11-Nov-2017
+
+Initial Timings:
+Debug 	    Update - 1166.014404 ms 	Draw   - 722.870789  ms 	Total  - 1888.88524  ms
+Release 	Update - 27.2229 ms 		Draw   - 79.7339  ms 		Total  - 106.9568  ms	
+
+/**************************************************************************************************/
+
+/*****************************************UPDATE 1**********************************************/
+Date - 11-Nov-2017
+
+Changes: 
+
+	->Converting Double to float conversions in Matrix,Vect,Particle,ParticeEmitter files.
+	->Converting to OpenGL double code to float
+Updated Timings:
+
+Debug 	    Update - 980.555725 ms 	    Draw   - 731.281921 ms 	Total  - 1711.837646 ms
+Release 	Update - 17.156250 ms 		Draw   - 71.034790  ms 		Total  - 88.191040   ms	
+	
+/**************************************************************************************************/
+
+/***************************************UPDATE 2*********************************************/
+Date - 11-Nov-2017
+
+Changes: 
+
+	->Remove DrawBuffer list.
+	->Removing unnecessary computation from Draw().
+	->Moving OpenGL code and Matrix declaration out of loop in Draw().
+	
+Updated Timings:
+
+Debug 	    Update - 454.673370 ms  	Draw  - 192.546600 ms 	Total  - 647.220032 ms
+Release 	Update - 8.334164 ms 		Draw  - 62.446560  ms 	Total  - 70.780724   ms	
+	
+/**************************************************************************************************/
+
+/***************************************UPDATE 3**************************************************/
+Date - 12-Nov-2017
+
+Changes: 
+
+	->Updating Vector and Matrix classes with SIMD code changes.
+	->In Main(), Moving Matrix operations from loop to outside.
+	->Adding Align.h functionaity to Particle
+	
+Updated Timings:
+
+Debug 	    Update - 446.538910 ms  	Draw  - 269.252167 ms 	Total  - 715.791077 ms
+Release 	Update - 6.519125 ms 		Draw  - 53.112968  ms 	Total  - 59.632092  ms		
+/**************************************************************************************************/
+
+
+/***************************************UPDATE 4**************************************************/
+Date - 12-Nov-2017
+
+Changes: 
+
+	->Applying RVO to Vect and matrix classes.
+	->In Main(), Moving Matrix operations from loop to outside.
+	
+Updated Timings:
+
+Debug 	    Update - 432.138490 ms  	Draw  - 240.163457 ms   Total  - 672.301947ms
+Release 	Update - 5.892775 ms 		Draw  - 57.168234  ms 	Total  - 63.061009  ms		
+/**************************************************************************************************/
+
+
+/***************************************UPDATE 5**************************************************/
+Date - 12-Nov-2017
+
+Changes: 
+	->compiler optimisation.
+	->Removing all unnecessary computations from Update()
+	->Refactoring repeatitive code from Update()
+	
+Updated Timings:
+
+Debug 	    Update - 156.538910 ms  	Draw  - 219.252167 ms 	Total  - 375.791077 ms
+Release 	Update - 4.69152 ms 		Draw  - 48.213698  ms 	Total  - 52.905218  ms		
+/**************************************************************************************************/
+
+/***************************************UPDATE 5**************************************************/
+Date - 13-Nov-2017
+
+Changes: 
+
+	->Removing temporaroes,adding constants to variables and functions
+	->simplifying Matrix calculations in Draw()
+	
+Updated Timings:
+
+Debug 	    Update - 26.538910 ms  	Draw  - 203.192398 ms 	Total  - 229.550873 ms
+Release 	Update - 1.775100 ms 		Draw  - 42.891499  ms 	Total  - 44.666599  ms		
+/**************************************************************************************************/

@@ -1,0 +1,22 @@
+Program Assignment: 7  
+Debug MODE
+Name: <your name here>
+
+-------------------------------------------------
+
+Creation of original List: 42.854122 ms
+
+Original linked list---------------------------
+   Finding Key: 0.709836 ms
+ (Proof)   key: 0x7F9E1B10  x:657018931 y:1315507706 z:1847085303 flag:1
+
+     Insertion Time: 1992.053833 ms
+         Merge Time: 7.761390 ms
+  Merge/Insert Time: 5.744373 ms   Cutoff length: 13
+
+  Merge vs Merge/Insert: 1.351129 faster
+
+    Time to create File: ?????? ms  
+  Time to recreate list: ?????? ms  
+
+  Verify Time: ????? ms  Result: 1

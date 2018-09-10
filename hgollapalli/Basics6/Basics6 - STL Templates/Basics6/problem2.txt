@@ -1,0 +1,47 @@
+Basics 6 
+problem2.txt
+
+------------Basics STL------------
+
+original
+        B[ 0]: 66   
+        B[ 1]: 77   
+        B[ 2]: 33   
+        B[ 3]: 22   
+        B[ 4]: 88   
+        B[ 5]: 11   
+        B[ 6]: 99   
+        B[ 7]: 44   
+
+ STL List 
+        B[ 0]: 66   
+        B[ 1]: 77   
+        B[ 2]: 33   
+        B[ 3]: 22   
+        B[ 4]: 88   
+        B[ 5]: 11   
+        B[ 6]: 99   
+        B[ 7]: 44   
+
+ Insert 88 into STL List  
+        B[ 0]: 66   
+        B[ 1]: 77   
+        B[ 2]: 33   
+        B[ 3]: 22   
+        B[ 4]: 55   
+        B[ 5]: 88   
+        B[ 6]: 11   
+        B[ 7]: 99   
+        B[ 8]: 44   
+
+ After Sorting list in reverse order using built in function 
+        B[ 0]: 99   
+        B[ 1]: 88   
+        B[ 2]: 77   
+        B[ 3]: 66   
+        B[ 4]: 55   
+        B[ 5]: 44   
+        B[ 6]: 33   
+        B[ 7]: 22   
+        B[ 8]: 11   
+

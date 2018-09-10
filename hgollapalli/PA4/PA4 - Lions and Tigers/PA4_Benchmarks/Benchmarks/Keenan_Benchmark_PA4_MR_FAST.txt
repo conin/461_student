@@ -1,0 +1,18 @@
+Program Assignment: 4 
+Name: Ed Keenan
+
+-------------------------------------------------
+
+ -----------Memory System------------
+
+Memory Time: 58.926334 ms
+
+
+ --------- Bloated Nodes ---------------
+
+Creation of List: 5.306480 s
+        Find Key: 0.004927 ms
+
+ -----------Math Test------------
+
+Math test: 20.205931 ms

@@ -1,0 +1,79 @@
+Debug Tests 
+
+Test_1
+
+121611216160803040152076038019095472311521-->expected:7  actual:7
+
+Test_2: 
+
+Hola!!
+Adios!
+
+Bonjour!
+Au revoir!
+
+Ciao!
+Arrivederci!
+
+
+Test_3: 
+
+Actual
+   0
+   1
+   2
+   3
+   4
+   5
+   6
+   7
+   8
+   9
+Expected
+   0
+   1
+   2
+   3
+   4
+   5
+   6
+   7
+   8
+   9
+
+Test_4: 
+
+Expecting: upperNum:56  lowerNum:55 
+Actual:    upperNum:56  lowerNum:55 
+
+Test_5: 
+
+expected sum: 45 actual sum: 45
+
+Test_6: 
+
+Dogs bark
+
+Test_7: 
+
+Expected: Color:2 numDoors:4 wheelDrive:4 wings:0
+  Actual: Color:2 numDoors:4 wheelDrive:4 wings:0
+
+Test_8: 
+
+St Patrick's Day is March 17
+
+Test_9: 
+
+expected:45  actual:45
+
+Test_10: 
+
+Expect: 
+ 20 
+ 20 
+ 21
+Actual:
+ 20
+ 20
+ 21

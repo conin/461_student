@@ -1,0 +1,31 @@
+Basics 6 
+problem3.txt
+
+------------Basics STL------------
+
+original
+
+        zippy[0]: s:Bug  zip:0xabcd 
+        zippy[1]: s:Dog  zip:0x1331 
+        zippy[2]: s:Cat  zip:0x8844 
+        zippy[3]: s:Pig  zip:0xbb77 
+        zippy[4]: s:Bee  zip:0xffee 
+
+
+ stl: insert into a set After sorting
+        zippy[0]: s:Cat  zip:0x8844 
+        zippy[1]: s:Bee  zip:0xffee 
+        zippy[2]: s:Pig  zip:0xbb77 
+        zippy[3]: s:Dog  zip:0x1331 
+        zippy[4]: s:Bug  zip:0xabcd 
+
+
+ stl: find node using complete node {Bee, 0xFFEE}:
+	 ZipCode - string - Bee
+	 ZipCode - zip - 0xffee 
+	Address of ZipCode 0x004E2580 
+
+ stl: find string name using zip data {0xBB77}:
+	 ZipCode->string - Pig
+	 ZipCode->zip - 0xbb77
+	 Address of ZipCode element is 0x004E2538
